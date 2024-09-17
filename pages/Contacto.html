@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="../images/d7lab_1.png" alt="Logo de D7"> 
+        </div>
+
+        <div class="listaHeader">
+            <nav class="navBar">
+            <ul>
+                <li><a href="../pages/D7.html" target="_blank"> D7</a></li>
+                <li><a href="../pages/Proyectos.html" target="_blank">Proyectos</a></li>
+                <li><a href="../pages/Agenda.html" target="_blank">Agenda/Entradas</a></li>
+                <li><a href="../pages/Contacto.html" target="_blank">Contacto</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    
+        <div class="contact_form">
+
+		    <div class="formulario">			
+                <h1>Formulario de contacto</h1>
+				    <h3>Querés trabajar o tocar en D7?</h3>
+
+
+					    <form action="submeter-formulario.php" method="post">				
+
+						
+								<p>
+									<label for="nombre" class="colocar_nombre">Nombre
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Nombre">
+								</p>
+							
+								<p>
+									<label for="email" class="colocar_email">Email
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Email">
+								</p>
+						
+								<p>
+									<label for="telefone" class="colocar_telefono">Teléfono
+									</label>
+										<input type="tel" name="introducir_telefono" id="telefono" placeholder="Teléfono">
+								</p>		
+							
+								<p>
+									<label for="website" class="colocar_website">Sitio web
+									</label>
+										<input type="url" name="introducir_website" id="website" placeholder="URL">
+								</p>		
+							
+															
+								<p>
+									<label for="mensaje" class="colocar_mensaje">Mensaje
+										<span class="obligatorio">*</span>
+									</label>                     
+                               		  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                               	</p>	  								
+							
+								<button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+								<p class="aviso">
+									<span class="obligatorio"> * </span>los campos son obligatorios.
+								</p>					
+						
+					    </form>
+		    </div>	
+	    </div>
+        
+        <footer>
+            <div>
+                <ul>
+                    <li>
+                        <a href="https://www.google.com/maps/place/Av.+Ovidio+Lagos+790,+S2000LNU+Rosario,+Santa+Fe/@-32.9418656,-60.6616031,17z/data=!3m1!4b1!4m6!3m5!1s0x95b7ab44e643445b:0x2c4db9b31d3ae1ed!8m2!3d-32.9418656!4d-60.6616031!16s%2Fg%2F11jq6wnyk4?entry=ttu" target="_blank"><i class="fa-solid fa-map-pin"></i></i></i></a>
+                    </li>
+                </ul>
+           
+            </div>  
+    
+            <div>
+                <p>Ovidio Lagos 790 - Rosario - Argentina</p>
+                <p>Lunes de 9 a 20hs / Martes de 9 a 20hs / Miércoles de 9 a 00hs / Jueves de 9 a 01hs / Viernes de 9 a 4.30hs / Sábado de 21 a 4.30hs / Domingo de 20 a 2hs</p></p>
+            </div>
+        </footer>
+</body>
+</html>
